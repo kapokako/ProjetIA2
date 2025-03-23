@@ -36,7 +36,7 @@ print("Device :", device)
 
 
 ###############################################################################
-# 1. CHARGEMENT & PRÉTRAITEMENT DES DONNÉESv
+# 1. CHARGEMENT & PRÉTRAITEMENT DES DONNÉESvv
 ###############################################################################
 def download_data(tickers, start, end):
     dfs = []
