@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dd4f205-15c1-458d-be69-269f694c1d34" name="Changes" comment="#2" />
+    <list default="true" id="9dd4f205-15c1-458d-be69-269f694c1d34" name="Changes" comment="#2">
+      <change beforePath="$PROJECT_DIR$/QuantGan.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuantGan.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,12 +22,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;kapokako&quot;
-  }
-}</component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {}
+}]]></component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/kapokako/ProjetIA2.git&quot;,
@@ -79,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1742642268898</updated>
       <workItem from="1742642269734" duration="14787000" />
-      <workItem from="1742722898594" duration="2036000" />
+      <workItem from="1742722898594" duration="2251000" />
     </task>
     <task id="LOCAL-00001" summary="#1">
       <option name="closed" value="true" />
@@ -97,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742734102851</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="#2">
+      <option name="closed" value="true" />
+      <created>1742734752342</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742734752342</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
