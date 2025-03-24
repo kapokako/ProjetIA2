@@ -35,6 +35,7 @@ L'objectif de ce projet est d'explorer plusieurs applications des GANs :
 - **mainFin.py** : GAN_Finance – génération de séries temporelles pour un actif unique (ex. AAPL).
 - **CorrGAN.py** : CorrGAN – génération de séries multi-actifs avec pénalité de corrélation.
 - **QuantGan.py** : QuantGAN – génération de séries multi-actifs avec pénalité basée sur la fonction caractéristique.
+- **GANavance.py** : GAN - génération de séries multi-actifs avec corrélation, volatilité, kurtosis.
 - **VisageArtiGAN.py** : DCGAN pour la génération de visages artificiels à partir du dataset CelebA.
 - **main.py** : Exemple classique de GAN appliqué au dataset MNIST (pour illustration de la structure GAN).
 - **generated_series.csv** : Exemple de série temporelle générée (si applicable).
