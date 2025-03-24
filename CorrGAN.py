@@ -8,11 +8,8 @@ import torch.optim as optim
 from torch.utils.data import DataLoader, TensorDataset
 import matplotlib.pyplot as plt
 
-###############################################################################
-# 1. CHARGEMENT DES DONNÉES DE PLUSIEURS ACTIFS VIA YFINANCE
-###############################################################################
 
-# Exemple : 3 tickers pour illustrer la corrélation (AAPL, MSFT, GOOGL)
+
 tickers = ["AAPL", "MSFT", "GOOGL"]
 start_date = "2018-01-01"
 end_date = "2023-01-01"
@@ -23,18 +20,15 @@ for t in tickers:
     df = df[["Close"]].rename(columns={"Close": t})
     data_frames.append(df)
 
-# Fusionner sur la base des dates communes (inner join)
+# Fusion base des dates communes (inner join)
 data_all = data_frames[0].join(data_frames[1:], how="inner")
 data_all.dropna(inplace=True)  # Supprime les dates avec valeurs manquantes
-
-# data_all est maintenant un DataFrame avec colonnes [AAPL, MSFT, GOOGL]
 
 ###############################################################################
 # 2. PRÉTRAITEMENT : NORMALISATION & CRÉATION DE SÉQUENCES TEMPORELLES
 ###############################################################################
 
 # On va normaliser chaque colonne (chaque actif) sur [-1, 1].
-# Puis on va créer des séquences temporelles de longueur seq_length.
 seq_length = 50
 
 # MinMaxScaler sur chaque colonne indépendamment (on veut [-1,1] par actif)

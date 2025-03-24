@@ -6,6 +6,7 @@ import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
 import torchvision.transforms as transforms
 import torchvision.utils as vutils
+import numpy as np
 import matplotlib.pyplot as plt
 
 # Chemin vers le dossier contenant les images CelebA

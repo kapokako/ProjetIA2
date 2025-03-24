@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dd4f205-15c1-458d-be69-269f694c1d34" name="Changes" comment="#2">
-      <change afterPath="$PROJECT_DIR$/VisageArtiGAN.py" afterDir="false" />
+    <list default="true" id="9dd4f205-15c1-458d-be69-269f694c1d34" name="Changes" comment="#3">
+      <change afterPath="$PROJECT_DIR$/AudioGAN.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GANavance.py" beforeDir="false" afterPath="$PROJECT_DIR$/GANavance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CorrGAN.py" beforeDir="false" afterPath="$PROJECT_DIR$/CorrGAN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VisageArtiGAN.py" beforeDir="false" afterPath="$PROJECT_DIR$/VisageArtiGAN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_images/epoch_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/output_images/epoch_1.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +37,7 @@
   }
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -84,7 +85,8 @@
       <updated>1742642268898</updated>
       <workItem from="1742642269734" duration="14787000" />
       <workItem from="1742722898594" duration="2251000" />
-      <workItem from="1742825956954" duration="2926000" />
+      <workItem from="1742825956954" duration="3275000" />
+      <workItem from="1742831291451" duration="7896000" />
     </task>
     <task id="LOCAL-00001" summary="#1">
       <option name="closed" value="true" />
@@ -118,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742741795429</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="#3">
+      <option name="closed" value="true" />
+      <created>1742830344006</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1742830344006</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,13 +137,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="#1" />
     <MESSAGE value="#2" />
-    <option name="LAST_COMMIT_MESSAGE" value="#2" />
+    <MESSAGE value="#3" />
+    <option name="LAST_COMMIT_MESSAGE" value="#3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ProjetIA2$VisageArtiGAN.coverage" NAME="VisageArtiGAN Coverage Results" MODIFIED="1742817342265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ProjetIA2$VisageArtiGAN.coverage" NAME="VisageArtiGAN Coverage Results" MODIFIED="1742834423358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProjetIA2$QuantGan.coverage" NAME="QuantGan Coverage Results" MODIFIED="1742722928776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProjetIA2$CorrGAN.coverage" NAME="CorrGAN Coverage Results" MODIFIED="1742647004997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ProjetIA2$GANavance.coverage" NAME="GANavance Coverage Results" MODIFIED="1742830137517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ProjetIA2$GANavance.coverage" NAME="GANavance Coverage Results" MODIFIED="1742837604617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProjetIA2$main.coverage" NAME="main Coverage Results" MODIFIED="1742643282849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProjetIA2$mainFin.coverage" NAME="mainFin Coverage Results" MODIFIED="1742646000780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
