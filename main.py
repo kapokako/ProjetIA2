@@ -34,7 +34,7 @@ dataloader = torch.utils.data.DataLoader(dataset, batch_size=batch_size, shuffle
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
-# Définition du générateur
+# Définition du générateur: Transforme un bruit aléatoire en image (28x28)
 class Generator(nn.Module):
     def __init__(self):
         super(Generator, self).__init__()
@@ -58,7 +58,7 @@ class Generator(nn.Module):
         return self.main(input)
 
 
-# Définition du discriminateur
+# Définition du discriminateur : Distingue vraies et fausses images
 class Discriminator(nn.Module):
     def __init__(self):
         super(Discriminator, self).__init__()
@@ -121,7 +121,7 @@ for epoch in range(num_epochs):
         lossG.backward()
         optimizerG.step()
 
-        # Affichage toutes les 100 itérations
+        # Affichage toutes les 100 itérations de la progression
         if i % 100 == 0:
             print(
                 f"[{epoch + 1}/{num_epochs}][{i}/{len(dataloader)}] Loss_D: {lossD.item():.4f} Loss_G: {lossG.item():.4f}")
