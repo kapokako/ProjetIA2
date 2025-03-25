@@ -10,7 +10,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Chemin vers le dossier contenant les images CelebA
-data_dir = r"D:\ProjetIA2\data\celeba\celeba\img_align_celeba\img_align_celeba"
+data_dir = "./img_align_celeba"
 
 
 # Dataset personnalisé pour CelebA
