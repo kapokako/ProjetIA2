@@ -56,6 +56,7 @@ Installez les dépendances nécessaires via pip :
 ```bash
 pip install torch torchvision yfinance pandas numpy scikit-learn matplotlib scipy
 ```
+- Attention, Data Celeba (VisageArtiGAN.py) à télécharger au préalable ou modifier le code pour reprendre les données à partir du drive ( lien : https://drive.usercontent.google.com/download?id=0B7EVK8r0v71pZjFTYXZWM3FlRnM&authuser=0)
 ## Références
 - Goodfellow et al. (2014) – Introduction aux GANs.
 
